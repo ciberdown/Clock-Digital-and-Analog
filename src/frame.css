@@ -1,0 +1,195 @@
+#one{
+    position: fixed;
+    text-align: center;
+    height: 15px;
+    width: 90px;
+    background-color: black;
+    border-radius: 8px;
+    margin-left: 13px;
+    top: 11px;
+    color: white;
+}
+#two{
+    height: 100px;
+    width: 15px;
+    background-color: black;
+    border-radius: 8px;
+    position: fixed;
+    top: 23px;
+    text-align: center;
+    color: white;
+}
+#three{
+    height: 15px;
+    width: 92px;
+    background-color: black;
+    border-radius: 8px;
+    margin-left: 13px;
+    position: fixed;
+    top: 122px;
+    text-align: center;
+    color: white;
+}
+#four{
+    height: 100px;
+    width: 15px;
+    background-color: black;
+    border-radius: 8px;
+    position: fixed;
+    top: 136px;
+    text-align: center;
+    color: white;
+}
+#five{
+    height: 15px;
+    width: 90px;
+    background-color: black;
+    border-radius: 8px;
+    margin-left: 14px;
+    position: fixed;
+    top: 234px;
+    text-align: center;
+    color: white;
+}
+#six{
+    height: 100px;
+    width: 15px;
+    background-color: black;
+    border-radius: 8px;
+    position: fixed;
+    top: 23px;
+    margin-left: 102px;
+    text-align: center;
+    color: white;
+}
+#seven{
+    height: 100px;
+    width: 15px;
+    background-color: black;
+    border-radius: 8px;
+    position: fixed;
+    top: 136px;
+    margin-left: 102px;
+    text-align: center;
+    color: white;
+}
+.my_clock .decimal_hours{
+    position: fixed;
+    top: 8px;
+    left: 135px;
+}
+
+.my_clock .colon{
+    position: fixed;
+    left: 270px;
+    top: 120px;
+}
+.my_clock .colon_top{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    
+}
+.my_clock .colon_button{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    margin-top: 30px;
+}
+.my_clock .hundreds_minutes{
+    position: fixed;
+    top: 8px;
+    left: 320px;
+}
+.my_clock .decimal_minutes{
+    position: fixed;
+    top: 8px;
+    left: 446px;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+#s_one{
+    background-color: red;
+    width: 10px;
+    height: 2px;
+    position: absolute;
+    left: 6px;
+    border-radius: 1px;
+    top: 5px;
+}
+#s_two{
+    background-color: red;
+    width: 2px;
+    height: 12px;
+    position: absolute;
+    top: 7px;
+    left: 4px;
+    border-radius: 1px;
+}
+#s_three{
+    background-color: red;
+    width: 10px;
+    height: 2px;
+    position: absolute;
+    left: 6px;
+    border-radius: 1px;
+    top:19px;
+}
+#s_four{
+    background-color: red;
+    width: 2px;
+    height: 12px;
+    position: absolute;
+    top: 21px;
+    left: 4px;
+    border-radius: 1px;
+}
+#s_five{
+    background-color: red;
+    width: 10px;
+    height: 2px;
+    position: absolute;
+    left: 6px;
+    border-radius: 1px;
+    top:33px;
+}
+#s_six{
+    background-color: red;
+    width: 2px;
+    height: 12px;
+    position: absolute;
+    top: 7px;
+    left: 16px;
+    border-radius: 1px;
+}
+#s_seven{
+    background-color: red;
+    width: 2px;
+    height: 12px;
+    position: absolute;
+    top: 21px;
+    left: 16px;
+    border-radius: 1px;
+}
+.seconds{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 3px;
+    position: relative;
+    top: 198px;
+    left: 575px;
+}
+
+.seconds .hundreds_seconds{
+    position: relative;
+}
+.seconds .decimal_seconds{
+    position: relative;
+    left: 17px;
+}

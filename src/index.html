@@ -1,0 +1,95 @@
+<!doctype html>
+<html class=" shadow-lg shadow-slate-600 h-[17rem] min-w-900px rounded-xl w-[40rem] p-2 my-2 mx-2 box-border font-sans border-2 border-solid border-zinc-500"><!-- set default styles -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/src/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="./frame.css">
+</head>
+<body>
+    <div class="my_clock">
+        <div class="hundreds_hours">
+            <div id="one"></div>
+            <div id="two"></div>
+            <div id="three"></div>
+            <div id="four"></div>
+            <div id="five"></div>
+            <div id="six"></div>
+            <div id="seven"></div>
+        </div>
+        <div class="decimal_hours">
+            <div id="one"></div>
+            <div id="two"></div>
+            <div id="three"></div>
+            <div id="four"></div>
+            <div id="five"></div>
+            <div id="six"></div>
+            <div id="seven"></div>
+        </div>
+        <div class="colon">
+            <div class="colon_top"></div>
+            <div class="colon_button"></div>
+        </div>
+        <div class="decimal_minutes">
+            <div id="one"></div>
+            <div id="two"></div>
+            <div id="three"></div>
+            <div id="four"></div>
+            <div id="five"></div>
+            <div id="six"></div>
+            <div id="seven"></div>
+        </div>
+        <div class="hundreds_minutes">
+            <div id="one"></div>
+            <div id="two"></div>
+            <div id="three"></div>
+            <div id="four"></div>
+            <div id="five"></div>
+            <div id="six"></div>
+            <div id="seven"></div>
+        </div>
+        <div class="seconds">
+            <div class="hundreds_seconds">
+                <div id="s_one"></div>
+                <div id="s_two"></div>
+                <div id="s_three"></div>
+                <div id="s_four"></div>
+                <div id="s_five"></div>
+                <div id="s_six"></div>
+                <div id="s_seven"></div>
+            </div>
+            <div class="decimal_seconds">
+                <div id="s_one"></div>
+                <div id="s_two"></div>
+                <div id="s_three"></div>
+                <div id="s_four"></div>
+                <div id="s_five"></div>
+                <div id="s_six"></div>
+                <div id="s_seven"></div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="w-[22rem] h-[22rem] relative top-[17rem] ml-[9rem] rounded-full bg-red-400 shadow-xl shadow-slate-600">
+        <div class="absolute w-[0.3rem] h-[23rem] bg-black ml-[50%] mt-[-0.5rem]"></div>
+        <div class="absolute h-[0.3rem] w-[23rem] bg-black mt-[50%] ml-[-0.5rem]"></div>
+        <div class="absolute h-[0.1rem] w-[23rem] bg-black mt-[50%] ml-[-0.5rem] rotate-[30deg]"></div>
+        <div class="absolute h-[0.1rem] w-[23rem] bg-black mt-[50%] ml-[-0.5rem] rotate-[-30deg]"></div>
+        <div class="absolute h-[0.1rem] w-[23rem] bg-black mt-[50%] ml-[-0.5rem] rotate-[-60deg]"></div>
+        <div class="absolute h-[0.1rem] w-[23rem] bg-black mt-[50%] ml-[-0.5rem] rotate-[60deg]"></div>
+
+        <div class="w-[21rem] h-[21rem] relative top-[0.5rem] ml-[0.5rem] rounded-full bg-red-100"></div>
+        <p class="font-serif  absolute top-[15rem] left-[50%] translate-x-[-50%]">be rule of the world</p>
+
+   
+        <div id="hourHand" class="absolute rounded-full w-[0.6rem] h-[6rem] bg-green-700 top-[5rem] left-[10.8rem] origin-bottom"></div>
+        <div id="minHand" class="absolute rounded-full w-[0.4rem] h-[7.5rem] bg-blue-600 top-[3.5rem] left-[10.9rem] origin-bottom"></div>
+        <div id="secHand" class="absolute rounded-full w-[0.2rem] h-[9rem] bg-red-500 top-[2rem] left-[11rem] origin-bottom"></div>
+
+        <div class="w-[2rem] h-[2rem] absolute top-[10.15rem] ml-[10.15rem] rounded-full bg-red-400"></div>
+        
+        <div></div>
+    </div>
+</body>
+<script type="module" src="./app.js" ></script>
+</html>
